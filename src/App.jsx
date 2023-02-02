@@ -1,6 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 import reactLogo from "./assets/react.svg";
+
 import "./App.css";
 
 function App() {
@@ -119,7 +120,7 @@ function App() {
 						</label>
 						<p>
 							*Accepts only .log files |{" "}
-							<a href="./transaction.log" download>
+							<a href="./transaction.log" download filename="transaction.log">
 								sample file
 							</a>
 						</p>
