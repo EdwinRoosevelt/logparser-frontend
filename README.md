@@ -10,4 +10,4 @@
 
 ### Deployment
 - Both frontend and [backend](https://github.com/EdwinRoosevelt/logparser-backend) code are deployed on personal linode server.
-- Urls are mapped to domain names and the routes are secured (SSL)
+- ips are mapped to domain names and the routes are secured (SSL)
