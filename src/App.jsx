@@ -120,7 +120,7 @@ function App() {
 						</label>
 						<p>
 							*Accepts only .log files |{" "}
-							<a href="./transaction.log" download filename="transaction.log">
+							<a href="/transaction.log" download filename="transaction.log">
 								sample file
 							</a>
 						</p>
