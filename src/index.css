@@ -1,13 +1,13 @@
 @font-face {
 	font-family: "halcyon-regular";
-	src: url("../public/halcyon-regular.otf") format("openType");
+	src: url("/halcyon-regular.otf") format("openType");
 	font-weight: 500;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: "halcyon-bold";
-	src: url("../public/halcyon-bold.otf") format("openType");
+	src: url("/halcyon-bold.otf") format("openType");
 	font-weight: 500;
 	font-style: normal;
 }

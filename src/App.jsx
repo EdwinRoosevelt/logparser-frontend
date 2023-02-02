@@ -38,7 +38,7 @@ function App() {
 
 			const response = await axios({
 				method: "post",
-				url: "http://localhost:3030/api/v1/logparser/parse/upload",
+				url: "http://172.105.36.117:3030/api/v1/logparser/parse/upload",
 				data: logFormData,
 				headers: { "Content-Type": "multipart/form-data" },
 			});
