@@ -39,7 +39,7 @@ function App() {
 
 			const response = await axios({
 				method: "post",
-				url: "http://172.105.36.117:3030/api/v1/logparser/parse/upload",
+				url: "https://api.logparser.edwinroosevelt.com/api/v1/logparser/parse/upload",
 				data: logFormData,
 				headers: { "Content-Type": "multipart/form-data" },
 			});
